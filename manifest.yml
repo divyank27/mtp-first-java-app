@@ -1,0 +1,8 @@
+applications:
+- path: target/JavaHelloWorldApp.war
+  memory: 512M
+  instances: 1
+  domain: au-syd.mybluemix.net
+  name: mtp-first-java-app
+  host: mtp-first-java-app
+  disk_quota: 1024M
